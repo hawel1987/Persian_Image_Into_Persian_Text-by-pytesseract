@@ -5,7 +5,8 @@ from PIL import Image
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 tessdata_dir_config = r'--tessdata-dir "C:\Program Files\Tesseract-OCR\tessdata" -l fas'
 
-# Load the image containing Persian text
+# Load example of persian image
+
 image = Image.open('image.jpg')
 
 # Extract the text from the image
